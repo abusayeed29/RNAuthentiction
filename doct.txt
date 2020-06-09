@@ -1,0 +1,11 @@
+#unable to load script make sure you are either running a metro server --solved #react-native
+
+    1.create directory  android/app/src/main/assets
+
+    2. run following command from project root directory
+
+    react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
+    3. run again the command : react-native run-android
+
+    Hopefully it will work. 
